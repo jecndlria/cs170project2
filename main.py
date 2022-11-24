@@ -18,7 +18,7 @@ def featureSearch(data):
     for i in range(1, len(data[0])):
         print("At level ", i, " of the search tree.")
         for k in range(1, len(data[0])):
-            if i != k:
+            if k not in setOfFeatures:
                 print("Considering adding option ", k)
 
 
@@ -30,7 +30,6 @@ def main():
     for i in data:
         print(i)
     print(len(data))
-    #print(data)
     featureSearch(data)
 
 if __name__ == "__main__":
