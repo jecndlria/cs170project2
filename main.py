@@ -15,9 +15,9 @@ def kCrossValidation(data, currentSet, featureToAdd):
 
 def featureSearch(data):
     setOfFeatures = []
-    for i in range(1, len(data)):
+    for i in range(1, len(data[0])):
         print("At level ", i, " of the search tree.")
-        for k in range(1, len(data)):
+        for k in range(1, len(data[0])):
             if i != k:
                 print("Considering adding option ", k)
 
@@ -31,7 +31,7 @@ def main():
         print(i)
     print(len(data))
     #print(data)
-    #featureSearch(data)
+    featureSearch(data)
 
 if __name__ == "__main__":
     main()
