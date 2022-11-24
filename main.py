@@ -1,4 +1,4 @@
-import numpy
+import random
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -9,26 +9,34 @@ def readData(file):
     file.close()
     return data
 
-def kCrossValidation(data, currentSet, featureToAdd):
-    accuracy = 0.5
-    return accuracy
+def kFoldCrossValidation(data, currentSet, featureToAdd):
+    return random.random()
 
 def featureSearch(data):
     setOfFeatures = []
     for i in range(1, len(data[0])):
+        print("CURRENT SET OF FEATURES: ", setOfFeatures)
         print("At level ", i, " of the search tree.")
+        bestSoFarAccuracy = 0
         for k in range(1, len(data[0])):
+            accuracy = 0
             if k not in setOfFeatures:
                 print("Considering adding option ", k)
-
+                accuracy = kFoldCrossValidation(data, setOfFeatures, k)
+            if accuracy > bestSoFarAccuracy:
+                bestSoFarAccuracy = accuracy
+                featureToAdd = k
+        setOfFeatures.append(featureToAdd)
+        print("Added feature ", featureToAdd, "to set.")
+    print("Final set of features: ", setOfFeatures)
 
 def main():
     fileName = input("Enter a file name to read: ")
-    #readData(fileName)
-    data = readData("CS170_Small_Data__24.txt")
-    #data = readData("CS170_Large_Data__67.txt")
-    for i in data:
-        print(i)
+    #data = readData(fileName)
+    if fileName == "":
+        data = readData("CS170_Small_Data__24.txt")
+    else:
+        data = readData("CS170_Large_Data__67.txt")
     print(len(data))
     featureSearch(data)
 
