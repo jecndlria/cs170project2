@@ -1,4 +1,7 @@
 import numpy
+import os
+import sys
+from datetime import datetime
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -53,7 +56,9 @@ def featureSearch(data):
     print("Final set of features: ", setOfFeatures)
 
 def main():
+    timestamp = str(datetime.now())
     fileName = input("Enter a file name to read: ")
+    sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
     data = readData(fileName)
     #if fileName == "":
     #    data = readData("CS170_Small_Data__24.txt")
@@ -61,6 +66,7 @@ def main():
     #    data = readData("CS170_Large_Data__67.txt")
     print(len(data))
     featureSearch(data)
+    sys.stdout.close()
 
 if __name__ == "__main__":
     main()
