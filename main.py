@@ -1,7 +1,5 @@
 import numpy
-import os
-import sys
-from datetime import datetime
+from copy import deepcopy
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -37,6 +35,8 @@ def kFoldCrossValidation(data, currentSet, featureToAdd):
 
 def featureSearch(data):
     setOfFeatures = []
+    optimalFeatureSet = []
+    optimalAccuracy = 0
     # Forward Selection
     for i in range(1, len(data[0])):
         print("CURRENT SET OF FEATURES: ", setOfFeatures)
@@ -53,7 +53,10 @@ def featureSearch(data):
                 featureToAdd = k
         setOfFeatures.append(featureToAdd)
         print("Added feature ", featureToAdd, "to set.")
-    print("Final set of features: ", setOfFeatures)
+        if bestSoFarAccuracy > optimalAccuracy:
+            optimalAccuracy = bestSoFarAccuracy
+            optimalFeatureSet = deepcopy(setOfFeatures)
+    return (optimalAccuracy, optimalFeatureSet)
 
 def main():
     #timestamp = str(datetime.now())
@@ -64,8 +67,8 @@ def main():
     #    data = readData("CS170_Small_Data__24.txt")
     #else:
     #    data = readData("CS170_Large_Data__67.txt")
-    print(len(data))
-    featureSearch(data)
+    answer = featureSearch(data)
+    print("Optimal set of features is ", answer[1], ", with an accuracy of ", answer[0])
     #sys.stdout.close()
 
 if __name__ == "__main__":
