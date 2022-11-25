@@ -54,11 +54,11 @@ def featureSearch(data):
 
 def main():
     fileName = input("Enter a file name to read: ")
-    #data = readData(fileName)
-    if fileName == "":
-        data = readData("CS170_Small_Data__24.txt")
-    else:
-        data = readData("CS170_Large_Data__67.txt")
+    data = readData(fileName)
+    #if fileName == "":
+    #    data = readData("CS170_Small_Data__24.txt")
+    #else:
+    #    data = readData("CS170_Large_Data__67.txt")
     print(len(data))
     featureSearch(data)
 
