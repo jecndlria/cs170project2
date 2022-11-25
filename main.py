@@ -20,7 +20,8 @@ def kFoldCrossValidation(data, currentSet, featureToAdd):
         nearestNeighborLabel = numpy.inf
         for k in data:
             featuresToConsider = []
-            featuresToConsider.append(objectToClassify[featureToAdd] - k[featureToAdd])
+            if featureToAdd != 0:
+                featuresToConsider.append(objectToClassify[featureToAdd] - k[featureToAdd])
             for j in range(0, len(currentSet)):
                 featuresToConsider.append(objectToClassify[currentSet[j]] - k[currentSet[j]])
             if k != i:
@@ -33,42 +34,69 @@ def kFoldCrossValidation(data, currentSet, featureToAdd):
             correctClassifications += 1
     return correctClassifications / len(data)
 
-def featureSearch(data):
+def featureSearch(data, algorithm):
     setOfFeatures = []
     optimalFeatureSet = []
     optimalAccuracy = 0
+    lastSeenAccuracy = 0
     # Forward Selection
-    for i in range(1, len(data[0])):
-        print("CURRENT SET OF FEATURES: ", setOfFeatures)
-        print("At level ", i, " of the search tree.")
-        bestSoFarAccuracy = 0
-        for k in range(1, len(data[0])):
-            accuracy = 0
-            if k not in setOfFeatures:
-                print("Considering adding option ", k)
-                accuracy = kFoldCrossValidation(data, setOfFeatures, k)
-                print("ACCURACY OF OPTION ", k, ": ", accuracy)
-            if accuracy > bestSoFarAccuracy:
-                bestSoFarAccuracy = accuracy
-                featureToAdd = k
-        setOfFeatures.append(featureToAdd)
-        print("Added feature ", featureToAdd, "to set.")
-        if bestSoFarAccuracy > optimalAccuracy:
-            optimalAccuracy = bestSoFarAccuracy
-            optimalFeatureSet = deepcopy(setOfFeatures)
+    if algorithm == 1:
+        for i in range(1, len(data[0])):
+            print("CURRENT SET OF FEATURES: ", setOfFeatures)
+            print("At level ", i, " of the search tree.")
+            bestSoFarAccuracy = 0
+            for k in range(1, len(data[0])):
+                accuracy = 0
+                if k not in setOfFeatures:
+                    accuracy = kFoldCrossValidation(data, setOfFeatures, k)
+                    print("ACCURACY OF FEATURE ", k, "with ", setOfFeatures ,": ", accuracy)
+                if accuracy > bestSoFarAccuracy:
+                    bestSoFarAccuracy = accuracy
+                    featureToAdd = k
+            setOfFeatures.append(featureToAdd)
+            print("Added feature ", featureToAdd, "to set, giving us an accuracy of ", bestSoFarAccuracy)
+            if bestSoFarAccuracy > optimalAccuracy:
+                optimalAccuracy = bestSoFarAccuracy
+                optimalFeatureSet = deepcopy(setOfFeatures)
+            if lastSeenAccuracy > bestSoFarAccuracy:
+                print("WARNING: Accuracy has decreased, but the search will continue!")
+            lastSeenAccuracy = bestSoFarAccuracy
+    # Backward Elimination
+    if algorithm == 2:
+        for i in range(1, len(data[0])):
+            setOfFeatures.append(i)
+        numberOfFeatures = len(setOfFeatures)
+        for i in range(1, len(data[0])):
+            print("CURRENT SET OF FEATURES: ", setOfFeatures)
+            print("At level ", i, " of the search tree.")
+            bestSoFarAccuracy = 0
+            featureToRemove = 0
+            for k in setOfFeatures:
+                backwardEliminationTest = deepcopy(setOfFeatures)
+                backwardEliminationTest.remove(k)
+                accuracy = kFoldCrossValidation(data, backwardEliminationTest, 0)
+                print("ACCURACY OF FEATURES ", setOfFeatures, "eliminating ", k ,": ", accuracy)
+                if accuracy > bestSoFarAccuracy:
+                    bestSoFarAccuracy = accuracy
+                    featureToRemove = k
+            setOfFeatures.remove(featureToRemove)
+            print("Removed feature ", featureToRemove, "from set, giving us an accuracy of ", bestSoFarAccuracy)
+            if bestSoFarAccuracy > optimalAccuracy:
+                optimalAccuracy = bestSoFarAccuracy
+                optimalFeatureSet = deepcopy(setOfFeatures)
+            if lastSeenAccuracy > bestSoFarAccuracy:
+                print("WARNING: Accuracy has decreased, but the search will continue!")
+            lastSeenAccuracy = bestSoFarAccuracy
     return (optimalAccuracy, optimalFeatureSet)
 
 def main():
     #timestamp = str(datetime.now())
     fileName = input("Enter a file name to read: ")
+    algorithm = input("Enter 1 to use Forward Selection, or 2 to use Backward Elimination: ")
     #sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
     data = readData(fileName)
-    #if fileName == "":
-    #    data = readData("CS170_Small_Data__24.txt")
-    #else:
-    #    data = readData("CS170_Large_Data__67.txt")
-    answer = featureSearch(data)
-    print("Optimal set of features is ", answer[1], ", with an accuracy of ", answer[0])
+    answer = featureSearch(data, int(algorithm))
+    print("FINISH: Optimal set of features is ", answer[1], ", with an accuracy of ", answer[0])
     #sys.stdout.close()
 
 if __name__ == "__main__":
