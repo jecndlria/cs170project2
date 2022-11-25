@@ -2,7 +2,6 @@ import numpy
 import os
 import sys
 from datetime import datetime
-from threading import Thread
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
