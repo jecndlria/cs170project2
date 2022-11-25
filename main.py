@@ -1,4 +1,4 @@
-import random
+import numpy
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -10,10 +10,30 @@ def readData(file):
     return data
 
 def kFoldCrossValidation(data, currentSet, featureToAdd):
-    return random.random()
+    correctClassifications = 0
+    for i in data:
+        objectToClassify = i
+        classOfObjectToClassify = int(objectToClassify[0])
+        nearestNeighborDistance = numpy.inf
+        nearestNeighborLocation = numpy.inf
+        for k in data:
+            featuresToConsider = []
+            featuresToConsider.append(objectToClassify[featureToAdd] - data[k][featureToAdd])
+            for j in currentSet:
+                featuresToConsider.append(objectToClassify[currentSet[j]] - data[k][currentSet[j]])
+            if k != i:
+                distance = numpy.sqrt(sum(numpy.square(featuresToConsider)))
+                if distance < nearestNeighborDistance:
+                    nearestNeighborDistance = distance
+                    nearestNeighborLocation = k
+                    nearestNeighborLabel = int(data[nearestNeighborLocation][0])
+            if classOfObjectToClassify == nearestNeighborLabel:
+                correctClassifications += 1
+    return correctClassifications / len(data)
 
 def featureSearch(data):
     setOfFeatures = []
+    # Forward Selection
     for i in range(1, len(data[0])):
         print("CURRENT SET OF FEATURES: ", setOfFeatures)
         print("At level ", i, " of the search tree.")
