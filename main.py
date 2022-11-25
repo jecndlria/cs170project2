@@ -42,19 +42,19 @@ def featureSearch(data, algorithm):
     # Forward Selection
     if algorithm == 1:
         for i in range(1, len(data[0])):
-            print("CURRENT SET OF FEATURES: ", setOfFeatures)
-            print("At level ", i, " of the search tree.")
+            print("CURRENT SET OF FEATURES:", setOfFeatures)
+            print("At level", i, "of the search tree.")
             bestSoFarAccuracy = 0
             for k in range(1, len(data[0])):
                 accuracy = 0
                 if k not in setOfFeatures:
                     accuracy = kFoldCrossValidation(data, setOfFeatures, k)
-                    print("ACCURACY OF FEATURE ", k, "with ", setOfFeatures ,": ", accuracy)
+                    print("ACCURACY OF FEATURE", k, "with", setOfFeatures ,": ", accuracy)
                 if accuracy > bestSoFarAccuracy:
                     bestSoFarAccuracy = accuracy
                     featureToAdd = k
             setOfFeatures.append(featureToAdd)
-            print("Added feature ", featureToAdd, "to set, giving us an accuracy of ", bestSoFarAccuracy)
+            print("Added feature", featureToAdd, "to set, giving us an accuracy of", bestSoFarAccuracy)
             if bestSoFarAccuracy > optimalAccuracy:
                 optimalAccuracy = bestSoFarAccuracy
                 optimalFeatureSet = deepcopy(setOfFeatures)
@@ -67,20 +67,20 @@ def featureSearch(data, algorithm):
             setOfFeatures.append(i)
         numberOfFeatures = len(setOfFeatures)
         for i in range(1, len(data[0])):
-            print("CURRENT SET OF FEATURES: ", setOfFeatures)
-            print("At level ", i, " of the search tree.")
+            print("CURRENT SET OF FEATURES:", setOfFeatures)
+            print("At level", i, " of the search tree.")
             bestSoFarAccuracy = 0
             featureToRemove = 0
             for k in setOfFeatures:
                 backwardEliminationTest = deepcopy(setOfFeatures)
                 backwardEliminationTest.remove(k)
                 accuracy = kFoldCrossValidation(data, backwardEliminationTest, 0)
-                print("ACCURACY OF FEATURES ", setOfFeatures, "eliminating ", k ,": ", accuracy)
+                print("ACCURACY OF FEATURES", setOfFeatures, "eliminating", k ,": ", accuracy)
                 if accuracy > bestSoFarAccuracy:
                     bestSoFarAccuracy = accuracy
                     featureToRemove = k
             setOfFeatures.remove(featureToRemove)
-            print("Removed feature ", featureToRemove, "from set, giving us an accuracy of ", bestSoFarAccuracy)
+            print("Removed feature", featureToRemove, "from set, giving us an accuracy of", bestSoFarAccuracy)
             if bestSoFarAccuracy > optimalAccuracy:
                 optimalAccuracy = bestSoFarAccuracy
                 optimalFeatureSet = deepcopy(setOfFeatures)
