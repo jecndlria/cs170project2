@@ -16,19 +16,20 @@ def kFoldCrossValidation(data, currentSet, featureToAdd):
         classOfObjectToClassify = int(objectToClassify[0])
         nearestNeighborDistance = numpy.inf
         nearestNeighborLocation = numpy.inf
+        nearestNeighborLabel = numpy.inf
         for k in data:
             featuresToConsider = []
-            featuresToConsider.append(objectToClassify[featureToAdd] - data[k][featureToAdd])
-            for j in currentSet:
-                featuresToConsider.append(objectToClassify[currentSet[j]] - data[k][currentSet[j]])
+            featuresToConsider.append(objectToClassify[featureToAdd] - k[featureToAdd])
+            for j in range(0, len(currentSet)):
+                featuresToConsider.append(objectToClassify[currentSet[j]] - k[currentSet[j]])
             if k != i:
                 distance = numpy.sqrt(sum(numpy.square(featuresToConsider)))
                 if distance < nearestNeighborDistance:
                     nearestNeighborDistance = distance
                     nearestNeighborLocation = k
-                    nearestNeighborLabel = int(data[nearestNeighborLocation][0])
-            if classOfObjectToClassify == nearestNeighborLabel:
-                correctClassifications += 1
+                    nearestNeighborLabel = int(nearestNeighborLocation[0])
+        if classOfObjectToClassify == nearestNeighborLabel and nearestNeighborLabel != numpy.inf:
+            correctClassifications += 1
     return correctClassifications / len(data)
 
 def featureSearch(data):
@@ -43,6 +44,7 @@ def featureSearch(data):
             if k not in setOfFeatures:
                 print("Considering adding option ", k)
                 accuracy = kFoldCrossValidation(data, setOfFeatures, k)
+                print("ACCURACY OF OPTION ", k, ": ", accuracy)
             if accuracy > bestSoFarAccuracy:
                 bestSoFarAccuracy = accuracy
                 featureToAdd = k
