@@ -1,3 +1,5 @@
+Enter a file name to read: CS170_Large_Data__67.txt
+Enter 1 to use Forward Selection, or 2 to use Backward Elimination: 1
 This dataset has 40 features and 1000 instances.
 CURRENT SET OF FEATURES: []
 At level 1 of the search tree.
