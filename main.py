@@ -51,17 +51,17 @@ def featureSearch(data, algorithm):
                 accuracy = 0
                 if k not in setOfFeatures:
                     accuracy = kFoldCrossValidation(data, setOfFeatures, k)
-                    print("ACCURACY OF FEATURE", k, "with", setOfFeatures ,": ", accuracy)
+                    print("ACCURACY OF FEATURES", setOfFeatures, "with", k, "added:", accuracy)
                 if accuracy > bestSoFarAccuracy:
                     bestSoFarAccuracy = accuracy
                     featureToAdd = k
             setOfFeatures.append(featureToAdd)
-            print("Added feature", featureToAdd, "to set, giving us an accuracy of", bestSoFarAccuracy)
+            print("Added feature", featureToAdd, "to set, giving us an accuracy of", bestSoFarAccuracy, '\n')
             if bestSoFarAccuracy > optimalAccuracy:
                 optimalAccuracy = bestSoFarAccuracy
                 optimalFeatureSet = deepcopy(setOfFeatures)
             if lastSeenAccuracy > bestSoFarAccuracy:
-                print("WARNING: Accuracy has decreased, but the search will continue!")
+                print("WARNING: Accuracy has decreased, but the search will continue!\n")
             lastSeenAccuracy = bestSoFarAccuracy
     # Backward Elimination
     if algorithm == 2:
@@ -69,24 +69,24 @@ def featureSearch(data, algorithm):
             setOfFeatures.append(i)
         for i in range(1, len(data[0])):
             print("CURRENT SET OF FEATURES:", setOfFeatures)
-            print("At level", i, " of the search tree.")
+            print("At level", i, "of the search tree.")
             bestSoFarAccuracy = 0
             featureToRemove = 0
             for k in setOfFeatures:
                 backwardEliminationTest = deepcopy(setOfFeatures)
                 backwardEliminationTest.remove(k)
                 accuracy = kFoldCrossValidation(data, backwardEliminationTest, 0)
-                print("ACCURACY OF FEATURES", setOfFeatures, "eliminating", k ,": ", accuracy)
+                print("ACCURACY OF FEATURES", backwardEliminationTest, "eliminating", k ,": ", accuracy)
                 if accuracy > bestSoFarAccuracy:
                     bestSoFarAccuracy = accuracy
                     featureToRemove = k
             setOfFeatures.remove(featureToRemove)
-            print("Removed feature", featureToRemove, "from set, giving us an accuracy of", bestSoFarAccuracy)
+            print("Removed feature", featureToRemove, "from set, giving us an accuracy of", bestSoFarAccuracy, '\n')
             if bestSoFarAccuracy > optimalAccuracy:
                 optimalAccuracy = bestSoFarAccuracy
                 optimalFeatureSet = deepcopy(setOfFeatures)
             if lastSeenAccuracy > bestSoFarAccuracy:
-                print("WARNING: Accuracy has decreased, but the search will continue!")
+                print("WARNING: Accuracy has decreased, but the search will continue!\n")
             lastSeenAccuracy = bestSoFarAccuracy
     return (optimalAccuracy, optimalFeatureSet)
 
@@ -96,7 +96,7 @@ def main():
     algorithm = input("Enter 1 to use Forward Selection, or 2 to use Backward Elimination: ")
     sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
     data = readData(fileName)
-    print("This dataset has", len(data[0]) - 1, "features and", len(data), "instances.")
+    print("This dataset has", len(data[0]) - 1, "features and", len(data), "instances.\n")
     answer = featureSearch(data, int(algorithm))
     print("FINISH: Optimal set of features is", answer[1], ", with an accuracy of ", answer[0])
     sys.stdout.close()
