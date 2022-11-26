@@ -14,6 +14,7 @@ def readData(file):
 
 def kFoldCrossValidation(data, currentSet, featureToAdd):
     correctClassifications = 0
+    if not currentSet: return 0.5
     for i in data:
         objectToClassify = i
         classOfObjectToClassify = int(objectToClassify[0])
@@ -26,8 +27,9 @@ def kFoldCrossValidation(data, currentSet, featureToAdd):
                 featuresToConsider.append(objectToClassify[featureToAdd] - k[featureToAdd])
             for j in range(0, len(currentSet)):
                 featuresToConsider.append(objectToClassify[currentSet[j]] - k[currentSet[j]])
-            if k != i:
-                distance = numpy.sqrt(sum(numpy.square(featuresToConsider)))
+            if k != i and featuresToConsider:
+                featuresToConsider = numpy.square(featuresToConsider)
+                distance = numpy.sqrt(sum(featuresToConsider))
                 if distance < nearestNeighborDistance:
                     nearestNeighborDistance = distance
                     nearestNeighborLocation = k
@@ -80,7 +82,7 @@ def featureSearch(data, algorithm):
                 if accuracy > bestSoFarAccuracy:
                     bestSoFarAccuracy = accuracy
                     featureToRemove = k
-            setOfFeatures.remove(featureToRemove)
+            if setOfFeatures: setOfFeatures.remove(featureToRemove)
             print("Removed feature", featureToRemove, "from set, giving us an accuracy of", bestSoFarAccuracy, '\n')
             if bestSoFarAccuracy > optimalAccuracy:
                 optimalAccuracy = bestSoFarAccuracy
