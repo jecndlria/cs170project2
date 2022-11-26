@@ -1,5 +1,7 @@
 import numpy
 from copy import deepcopy
+import sys
+from time import datetime
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -65,7 +67,6 @@ def featureSearch(data, algorithm):
     if algorithm == 2:
         for i in range(1, len(data[0])):
             setOfFeatures.append(i)
-        numberOfFeatures = len(setOfFeatures)
         for i in range(1, len(data[0])):
             print("CURRENT SET OF FEATURES:", setOfFeatures)
             print("At level", i, " of the search tree.")
@@ -90,15 +91,15 @@ def featureSearch(data, algorithm):
     return (optimalAccuracy, optimalFeatureSet)
 
 def main():
-    #timestamp = str(datetime.now())
+    timestamp = str(datetime.now())
     fileName = input("Enter a file name to read: ")
     algorithm = input("Enter 1 to use Forward Selection, or 2 to use Backward Elimination: ")
-    #sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
+    sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
     data = readData(fileName)
     print("This dataset has ", len(data[0]) - 1, "features and", len(data), "instances.")
     answer = featureSearch(data, int(algorithm))
     print("FINISH: Optimal set of features is ", answer[1], ", with an accuracy of ", answer[0])
-    #sys.stdout.close()
+    sys.stdout.close()
 
 if __name__ == "__main__":
     main()
