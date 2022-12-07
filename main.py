@@ -2,6 +2,7 @@ import numpy
 from copy import deepcopy
 import sys
 from datetime import datetime
+import time
 
 def readData(file):
     data = [] # 2D List that holds the entire dataset
@@ -14,7 +15,7 @@ def readData(file):
 
 def kFoldCrossValidation(data, currentSet, featureToAdd):
     correctClassifications = 0
-    if not currentSet: return 0.5
+    if not currentSet and featureToAdd == 0: return 0.5
     for i in data:
         objectToClassify = i
         classOfObjectToClassify = int(objectToClassify[0])
@@ -93,15 +94,18 @@ def featureSearch(data, algorithm):
     return (optimalAccuracy, optimalFeatureSet)
 
 def main():
+    startTime = time.process_time()
     timestamp = str(datetime.now())
     fileName = input("Enter a file name to read: ")
+    sys.stdout=open(f"outputlogs/{fileName} at {timestamp}.txt", "w")
     algorithm = input("Enter 1 to use Forward Selection, or 2 to use Backward Elimination: ")
-    sys.stdout=open(f"outputlogs/{fileName} at {timestamp}", "w")
     data = readData(fileName)
     print("This dataset has", len(data[0]) - 1, "features and", len(data), "instances.\n")
     answer = featureSearch(data, int(algorithm))
     print("FINISH: Optimal set of features is", answer[1], ", with an accuracy of ", answer[0])
     sys.stdout.close()
+    totalTime = time.process_time() - startTime
+    print("Time to compute: ", round(totalTime, 2))
 
 if __name__ == "__main__":
     main()
