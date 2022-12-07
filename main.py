@@ -16,7 +16,10 @@ def readData(file):
     file.close()
     return data
 
-#
+# Leave-one-out cross validation using Nearest Neighbor Classifier
+    # Given a full dataset, a set of features, and (if using forward selection) a feature to add to that set, use the nearest neighbor algorithm to test that set of features:
+    # For each object in the dataset, we will attempt to classify it using it's nearest neighbor relative to the features we want to test.
+    # Returns the accuracy of the current set of features (+ the feature being added to that set)
 # data == the entire dataset 
 # currentSet == the current set of features we are using
 # featureToAdd == the feature we are considering adding to the currentSet
@@ -96,23 +99,23 @@ def featureSearch(data, algorithm):
             print("At level", i, "of the search tree.")
             bestSoFarAccuracy = 0   # Keeps track of the best accuracy seen during one level of the search.
             featureToRemove = 0     # Keeps track of the feature whose removal results in the highest accuracy. 
-            for k in setOfFeatures:
-                backwardEliminationTest = deepcopy(setOfFeatures)
-                backwardEliminationTest.remove(k)
+            for k in setOfFeatures:                                 # NOTE: We iterate through the current set of features.
+                backwardEliminationTest = deepcopy(setOfFeatures)   # Copy the current set of features
+                backwardEliminationTest.remove(k)                   # Remove the current feature, and test the accuracy of that set of features.
                 accuracy = kFoldCrossValidation(data, backwardEliminationTest, 0)
                 print("ACCURACY OF FEATURES", backwardEliminationTest, "eliminating", k ,": ", accuracy)
-                if accuracy > bestSoFarAccuracy:
+                if accuracy > bestSoFarAccuracy:                    # Take the best accuracy seen, and remove the feature whose removal gave us the highest accuracy.
                     bestSoFarAccuracy = accuracy
                     featureToRemove = k
-            if setOfFeatures: setOfFeatures.remove(featureToRemove)
+            if setOfFeatures: setOfFeatures.remove(featureToRemove) # The set of features will be empty at the end, so don't do this line if it is empty as it will crash the program.
             print("Removed feature", featureToRemove, "from set, giving us an accuracy of", bestSoFarAccuracy, '\n')
-            if bestSoFarAccuracy > optimalAccuracy:
+            if bestSoFarAccuracy > optimalAccuracy:        # Update the optimalAccuracy if removing the feature increased the accuracy of the setOfFeatures
                 optimalAccuracy = bestSoFarAccuracy
                 optimalFeatureSet = deepcopy(setOfFeatures)
-            if lastSeenAccuracy > bestSoFarAccuracy:
+            if lastSeenAccuracy > bestSoFarAccuracy:    # If adding the feature brought the accuracy down, let the user know
                 print("WARNING: Accuracy has decreased, but the search will continue!\n")
             lastSeenAccuracy = bestSoFarAccuracy
-    return (optimalAccuracy, optimalFeatureSet)
+    return (optimalAccuracy, optimalFeatureSet)   # Return optimal accuracy and feature set as a tuple.
 
 def main():
     startTime = time.process_time()                                                                 # Start timer
@@ -122,7 +125,7 @@ def main():
     algorithm = input("Enter 1 to use Forward Selection, or 2 to use Backward Elimination: \n")
     data = readData(fileName)
     print("This dataset has", len(data[0]) - 1, "features and", len(data), "instances.\n")          # len(data[0]) - 1, since we don't count the classification.
-    answer = featureSearch(data, int(algorithm))                                                    # Return optimal accuracy and feature set as a tuple.
+    answer = featureSearch(data, int(algorithm))                                                    # Run feature search and k-fold cross validation on the dataset              
     print("FINISH: Optimal set of features is", answer[1], ", with an accuracy of ", answer[0])
     totalTime = time.process_time() - startTime                                                     # Calculate time taken
     print("Time to compute:", round(totalTime, 1), " seconds.")
