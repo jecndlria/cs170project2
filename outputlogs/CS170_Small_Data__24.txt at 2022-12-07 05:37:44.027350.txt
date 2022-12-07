@@ -1,3 +1,4 @@
+Enter a file name to read: CS170_Small_Data__24.txt
 Enter 1 to use Forward Selection, or 2 to use Backward Elimination: 2
 This dataset has 6 features and 500 instances.
 

@@ -1,0 +1,1042 @@
+Enter a file name to read: CS170_Large_Data__67.txt
+Enter 1 to use Forward Selection, or 2 to use Backward Elimination: 1
+This dataset has 40 features and 1000 instances.
+
+CURRENT SET OF FEATURES: []
+At level 1 of the search tree.
+ACCURACY OF FEATURES [] with 1 added: 0.685
+ACCURACY OF FEATURES [] with 2 added: 0.67
+ACCURACY OF FEATURES [] with 3 added: 0.673
+ACCURACY OF FEATURES [] with 4 added: 0.697
+ACCURACY OF FEATURES [] with 5 added: 0.679
+ACCURACY OF FEATURES [] with 6 added: 0.663
+ACCURACY OF FEATURES [] with 7 added: 0.699
+ACCURACY OF FEATURES [] with 8 added: 0.686
+ACCURACY OF FEATURES [] with 9 added: 0.669
+ACCURACY OF FEATURES [] with 10 added: 0.683
+ACCURACY OF FEATURES [] with 11 added: 0.664
+ACCURACY OF FEATURES [] with 12 added: 0.675
+ACCURACY OF FEATURES [] with 13 added: 0.663
+ACCURACY OF FEATURES [] with 14 added: 0.668
+ACCURACY OF FEATURES [] with 15 added: 0.704
+ACCURACY OF FEATURES [] with 16 added: 0.67
+ACCURACY OF FEATURES [] with 17 added: 0.675
+ACCURACY OF FEATURES [] with 18 added: 0.682
+ACCURACY OF FEATURES [] with 19 added: 0.701
+ACCURACY OF FEATURES [] with 20 added: 0.688
+ACCURACY OF FEATURES [] with 21 added: 0.671
+ACCURACY OF FEATURES [] with 22 added: 0.695
+ACCURACY OF FEATURES [] with 23 added: 0.691
+ACCURACY OF FEATURES [] with 24 added: 0.67
+ACCURACY OF FEATURES [] with 25 added: 0.664
+ACCURACY OF FEATURES [] with 26 added: 0.664
+ACCURACY OF FEATURES [] with 27 added: 0.662
+ACCURACY OF FEATURES [] with 28 added: 0.681
+ACCURACY OF FEATURES [] with 29 added: 0.7
+ACCURACY OF FEATURES [] with 30 added: 0.691
+ACCURACY OF FEATURES [] with 31 added: 0.701
+ACCURACY OF FEATURES [] with 32 added: 0.679
+ACCURACY OF FEATURES [] with 33 added: 0.701
+ACCURACY OF FEATURES [] with 34 added: 0.699
+ACCURACY OF FEATURES [] with 35 added: 0.679
+ACCURACY OF FEATURES [] with 36 added: 0.679
+ACCURACY OF FEATURES [] with 37 added: 0.84
+ACCURACY OF FEATURES [] with 38 added: 0.676
+ACCURACY OF FEATURES [] with 39 added: 0.695
+ACCURACY OF FEATURES [] with 40 added: 0.673
+Added feature 37 to set, giving us an accuracy of 0.84 
+
+CURRENT SET OF FEATURES: [37]
+At level 2 of the search tree.
+ACCURACY OF FEATURES [37] with 1 added: 0.825
+ACCURACY OF FEATURES [37] with 2 added: 0.832
+ACCURACY OF FEATURES [37] with 3 added: 0.826
+ACCURACY OF FEATURES [37] with 4 added: 0.852
+ACCURACY OF FEATURES [37] with 5 added: 0.842
+ACCURACY OF FEATURES [37] with 6 added: 0.849
+ACCURACY OF FEATURES [37] with 7 added: 0.831
+ACCURACY OF FEATURES [37] with 8 added: 0.845
+ACCURACY OF FEATURES [37] with 9 added: 0.858
+ACCURACY OF FEATURES [37] with 10 added: 0.821
+ACCURACY OF FEATURES [37] with 11 added: 0.833
+ACCURACY OF FEATURES [37] with 12 added: 0.835
+ACCURACY OF FEATURES [37] with 13 added: 0.828
+ACCURACY OF FEATURES [37] with 14 added: 0.854
+ACCURACY OF FEATURES [37] with 15 added: 0.951
+ACCURACY OF FEATURES [37] with 16 added: 0.859
+ACCURACY OF FEATURES [37] with 17 added: 0.839
+ACCURACY OF FEATURES [37] with 18 added: 0.827
+ACCURACY OF FEATURES [37] with 19 added: 0.839
+ACCURACY OF FEATURES [37] with 20 added: 0.838
+ACCURACY OF FEATURES [37] with 21 added: 0.823
+ACCURACY OF FEATURES [37] with 22 added: 0.833
+ACCURACY OF FEATURES [37] with 23 added: 0.836
+ACCURACY OF FEATURES [37] with 24 added: 0.834
+ACCURACY OF FEATURES [37] with 25 added: 0.831
+ACCURACY OF FEATURES [37] with 26 added: 0.826
+ACCURACY OF FEATURES [37] with 27 added: 0.824
+ACCURACY OF FEATURES [37] with 28 added: 0.826
+ACCURACY OF FEATURES [37] with 29 added: 0.841
+ACCURACY OF FEATURES [37] with 30 added: 0.845
+ACCURACY OF FEATURES [37] with 31 added: 0.828
+ACCURACY OF FEATURES [37] with 32 added: 0.841
+ACCURACY OF FEATURES [37] with 33 added: 0.845
+ACCURACY OF FEATURES [37] with 34 added: 0.84
+ACCURACY OF FEATURES [37] with 35 added: 0.847
+ACCURACY OF FEATURES [37] with 36 added: 0.822
+ACCURACY OF FEATURES [37] with 38 added: 0.834
+ACCURACY OF FEATURES [37] with 39 added: 0.834
+ACCURACY OF FEATURES [37] with 40 added: 0.837
+Added feature 15 to set, giving us an accuracy of 0.951 
+
+CURRENT SET OF FEATURES: [37, 15]
+At level 3 of the search tree.
+ACCURACY OF FEATURES [37, 15] with 1 added: 0.92
+ACCURACY OF FEATURES [37, 15] with 2 added: 0.905
+ACCURACY OF FEATURES [37, 15] with 3 added: 0.918
+ACCURACY OF FEATURES [37, 15] with 4 added: 0.907
+ACCURACY OF FEATURES [37, 15] with 5 added: 0.917
+ACCURACY OF FEATURES [37, 15] with 6 added: 0.934
+ACCURACY OF FEATURES [37, 15] with 7 added: 0.909
+ACCURACY OF FEATURES [37, 15] with 8 added: 0.903
+ACCURACY OF FEATURES [37, 15] with 9 added: 0.914
+ACCURACY OF FEATURES [37, 15] with 10 added: 0.919
+ACCURACY OF FEATURES [37, 15] with 11 added: 0.911
+ACCURACY OF FEATURES [37, 15] with 12 added: 0.915
+ACCURACY OF FEATURES [37, 15] with 13 added: 0.913
+ACCURACY OF FEATURES [37, 15] with 14 added: 0.904
+ACCURACY OF FEATURES [37, 15] with 16 added: 0.908
+ACCURACY OF FEATURES [37, 15] with 17 added: 0.915
+ACCURACY OF FEATURES [37, 15] with 18 added: 0.914
+ACCURACY OF FEATURES [37, 15] with 19 added: 0.924
+ACCURACY OF FEATURES [37, 15] with 20 added: 0.92
+ACCURACY OF FEATURES [37, 15] with 21 added: 0.911
+ACCURACY OF FEATURES [37, 15] with 22 added: 0.901
+ACCURACY OF FEATURES [37, 15] with 23 added: 0.935
+ACCURACY OF FEATURES [37, 15] with 24 added: 0.91
+ACCURACY OF FEATURES [37, 15] with 25 added: 0.928
+ACCURACY OF FEATURES [37, 15] with 26 added: 0.908
+ACCURACY OF FEATURES [37, 15] with 27 added: 0.906
+ACCURACY OF FEATURES [37, 15] with 28 added: 0.906
+ACCURACY OF FEATURES [37, 15] with 29 added: 0.909
+ACCURACY OF FEATURES [37, 15] with 30 added: 0.917
+ACCURACY OF FEATURES [37, 15] with 31 added: 0.92
+ACCURACY OF FEATURES [37, 15] with 32 added: 0.92
+ACCURACY OF FEATURES [37, 15] with 33 added: 0.903
+ACCURACY OF FEATURES [37, 15] with 34 added: 0.908
+ACCURACY OF FEATURES [37, 15] with 35 added: 0.911
+ACCURACY OF FEATURES [37, 15] with 36 added: 0.905
+ACCURACY OF FEATURES [37, 15] with 38 added: 0.904
+ACCURACY OF FEATURES [37, 15] with 39 added: 0.906
+ACCURACY OF FEATURES [37, 15] with 40 added: 0.92
+Added feature 23 to set, giving us an accuracy of 0.935 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23]
+At level 4 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23] with 1 added: 0.876
+ACCURACY OF FEATURES [37, 15, 23] with 2 added: 0.89
+ACCURACY OF FEATURES [37, 15, 23] with 3 added: 0.875
+ACCURACY OF FEATURES [37, 15, 23] with 4 added: 0.881
+ACCURACY OF FEATURES [37, 15, 23] with 5 added: 0.881
+ACCURACY OF FEATURES [37, 15, 23] with 6 added: 0.898
+ACCURACY OF FEATURES [37, 15, 23] with 7 added: 0.887
+ACCURACY OF FEATURES [37, 15, 23] with 8 added: 0.891
+ACCURACY OF FEATURES [37, 15, 23] with 9 added: 0.871
+ACCURACY OF FEATURES [37, 15, 23] with 10 added: 0.87
+ACCURACY OF FEATURES [37, 15, 23] with 11 added: 0.875
+ACCURACY OF FEATURES [37, 15, 23] with 12 added: 0.888
+ACCURACY OF FEATURES [37, 15, 23] with 13 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23] with 14 added: 0.865
+ACCURACY OF FEATURES [37, 15, 23] with 16 added: 0.893
+ACCURACY OF FEATURES [37, 15, 23] with 17 added: 0.886
+ACCURACY OF FEATURES [37, 15, 23] with 18 added: 0.893
+ACCURACY OF FEATURES [37, 15, 23] with 19 added: 0.889
+ACCURACY OF FEATURES [37, 15, 23] with 20 added: 0.876
+ACCURACY OF FEATURES [37, 15, 23] with 21 added: 0.884
+ACCURACY OF FEATURES [37, 15, 23] with 22 added: 0.879
+ACCURACY OF FEATURES [37, 15, 23] with 24 added: 0.866
+ACCURACY OF FEATURES [37, 15, 23] with 25 added: 0.894
+ACCURACY OF FEATURES [37, 15, 23] with 26 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23] with 27 added: 0.889
+ACCURACY OF FEATURES [37, 15, 23] with 28 added: 0.875
+ACCURACY OF FEATURES [37, 15, 23] with 29 added: 0.881
+ACCURACY OF FEATURES [37, 15, 23] with 30 added: 0.894
+ACCURACY OF FEATURES [37, 15, 23] with 31 added: 0.881
+ACCURACY OF FEATURES [37, 15, 23] with 32 added: 0.89
+ACCURACY OF FEATURES [37, 15, 23] with 33 added: 0.889
+ACCURACY OF FEATURES [37, 15, 23] with 34 added: 0.884
+ACCURACY OF FEATURES [37, 15, 23] with 35 added: 0.887
+ACCURACY OF FEATURES [37, 15, 23] with 36 added: 0.884
+ACCURACY OF FEATURES [37, 15, 23] with 38 added: 0.885
+ACCURACY OF FEATURES [37, 15, 23] with 39 added: 0.879
+ACCURACY OF FEATURES [37, 15, 23] with 40 added: 0.886
+Added feature 6 to set, giving us an accuracy of 0.898 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6]
+At level 5 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6] with 1 added: 0.852
+ACCURACY OF FEATURES [37, 15, 23, 6] with 2 added: 0.873
+ACCURACY OF FEATURES [37, 15, 23, 6] with 3 added: 0.874
+ACCURACY OF FEATURES [37, 15, 23, 6] with 4 added: 0.868
+ACCURACY OF FEATURES [37, 15, 23, 6] with 5 added: 0.862
+ACCURACY OF FEATURES [37, 15, 23, 6] with 7 added: 0.873
+ACCURACY OF FEATURES [37, 15, 23, 6] with 8 added: 0.865
+ACCURACY OF FEATURES [37, 15, 23, 6] with 9 added: 0.866
+ACCURACY OF FEATURES [37, 15, 23, 6] with 10 added: 0.87
+ACCURACY OF FEATURES [37, 15, 23, 6] with 11 added: 0.854
+ACCURACY OF FEATURES [37, 15, 23, 6] with 12 added: 0.865
+ACCURACY OF FEATURES [37, 15, 23, 6] with 13 added: 0.844
+ACCURACY OF FEATURES [37, 15, 23, 6] with 14 added: 0.871
+ACCURACY OF FEATURES [37, 15, 23, 6] with 16 added: 0.863
+ACCURACY OF FEATURES [37, 15, 23, 6] with 17 added: 0.856
+ACCURACY OF FEATURES [37, 15, 23, 6] with 18 added: 0.856
+ACCURACY OF FEATURES [37, 15, 23, 6] with 19 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23, 6] with 20 added: 0.858
+ACCURACY OF FEATURES [37, 15, 23, 6] with 21 added: 0.855
+ACCURACY OF FEATURES [37, 15, 23, 6] with 22 added: 0.862
+ACCURACY OF FEATURES [37, 15, 23, 6] with 24 added: 0.855
+ACCURACY OF FEATURES [37, 15, 23, 6] with 25 added: 0.867
+ACCURACY OF FEATURES [37, 15, 23, 6] with 26 added: 0.879
+ACCURACY OF FEATURES [37, 15, 23, 6] with 27 added: 0.852
+ACCURACY OF FEATURES [37, 15, 23, 6] with 28 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23, 6] with 29 added: 0.864
+ACCURACY OF FEATURES [37, 15, 23, 6] with 30 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23, 6] with 31 added: 0.844
+ACCURACY OF FEATURES [37, 15, 23, 6] with 32 added: 0.869
+ACCURACY OF FEATURES [37, 15, 23, 6] with 33 added: 0.873
+ACCURACY OF FEATURES [37, 15, 23, 6] with 34 added: 0.868
+ACCURACY OF FEATURES [37, 15, 23, 6] with 35 added: 0.887
+ACCURACY OF FEATURES [37, 15, 23, 6] with 36 added: 0.857
+ACCURACY OF FEATURES [37, 15, 23, 6] with 38 added: 0.882
+ACCURACY OF FEATURES [37, 15, 23, 6] with 39 added: 0.864
+ACCURACY OF FEATURES [37, 15, 23, 6] with 40 added: 0.876
+Added feature 35 to set, giving us an accuracy of 0.887 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35]
+At level 6 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 1 added: 0.843
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 2 added: 0.834
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 3 added: 0.841
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 4 added: 0.838
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 5 added: 0.847
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 7 added: 0.847
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 8 added: 0.838
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 9 added: 0.839
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 10 added: 0.847
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 11 added: 0.835
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 12 added: 0.829
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 13 added: 0.845
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 14 added: 0.834
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 16 added: 0.855
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 17 added: 0.832
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 18 added: 0.845
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 19 added: 0.84
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 20 added: 0.836
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 21 added: 0.86
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 22 added: 0.828
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 24 added: 0.83
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 25 added: 0.84
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 26 added: 0.846
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 27 added: 0.851
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 28 added: 0.853
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 29 added: 0.851
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 30 added: 0.852
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 31 added: 0.852
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 32 added: 0.844
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 33 added: 0.846
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 34 added: 0.836
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 36 added: 0.848
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 38 added: 0.856
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 39 added: 0.826
+ACCURACY OF FEATURES [37, 15, 23, 6, 35] with 40 added: 0.852
+Added feature 21 to set, giving us an accuracy of 0.86 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21]
+At level 7 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 1 added: 0.825
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 2 added: 0.807
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 3 added: 0.814
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 4 added: 0.818
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 5 added: 0.814
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 7 added: 0.845
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 8 added: 0.828
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 9 added: 0.818
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 10 added: 0.824
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 11 added: 0.825
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 12 added: 0.807
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 13 added: 0.805
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 14 added: 0.824
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 16 added: 0.827
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 17 added: 0.811
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 18 added: 0.814
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 19 added: 0.821
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 20 added: 0.813
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 22 added: 0.826
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 24 added: 0.793
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 25 added: 0.818
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 26 added: 0.827
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 27 added: 0.817
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 28 added: 0.83
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 29 added: 0.837
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 30 added: 0.791
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 31 added: 0.812
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 32 added: 0.811
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 33 added: 0.842
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 34 added: 0.82
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 36 added: 0.833
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 38 added: 0.818
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 39 added: 0.795
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21] with 40 added: 0.828
+Added feature 7 to set, giving us an accuracy of 0.845 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7]
+At level 8 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 1 added: 0.812
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 2 added: 0.799
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 3 added: 0.788
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 4 added: 0.788
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 5 added: 0.817
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 8 added: 0.829
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 9 added: 0.812
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 10 added: 0.803
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 11 added: 0.797
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 12 added: 0.782
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 13 added: 0.811
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 14 added: 0.812
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 16 added: 0.789
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 17 added: 0.79
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 18 added: 0.778
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 19 added: 0.791
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 20 added: 0.802
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 22 added: 0.816
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 24 added: 0.781
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 25 added: 0.798
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 26 added: 0.813
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 27 added: 0.789
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 28 added: 0.814
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 29 added: 0.812
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 30 added: 0.781
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 31 added: 0.79
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 32 added: 0.82
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 33 added: 0.81
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 34 added: 0.825
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 36 added: 0.801
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 38 added: 0.823
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 39 added: 0.792
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7] with 40 added: 0.815
+Added feature 8 to set, giving us an accuracy of 0.829 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8]
+At level 9 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 1 added: 0.792
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 2 added: 0.778
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 3 added: 0.794
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 4 added: 0.791
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 5 added: 0.786
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 9 added: 0.795
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 10 added: 0.783
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 11 added: 0.794
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 12 added: 0.77
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 13 added: 0.795
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 14 added: 0.794
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 16 added: 0.77
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 17 added: 0.791
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 18 added: 0.796
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 19 added: 0.785
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 20 added: 0.796
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 22 added: 0.8
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 24 added: 0.796
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 25 added: 0.798
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 26 added: 0.802
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 27 added: 0.787
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 28 added: 0.792
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 29 added: 0.804
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 30 added: 0.771
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 31 added: 0.786
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 32 added: 0.797
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 33 added: 0.79
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 34 added: 0.791
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 36 added: 0.789
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 38 added: 0.798
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 39 added: 0.779
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8] with 40 added: 0.799
+Added feature 29 to set, giving us an accuracy of 0.804 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29]
+At level 10 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 1 added: 0.768
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 2 added: 0.751
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 3 added: 0.753
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 4 added: 0.76
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 5 added: 0.758
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 9 added: 0.764
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 10 added: 0.773
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 11 added: 0.784
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 12 added: 0.763
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 13 added: 0.773
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 14 added: 0.762
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 16 added: 0.764
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 17 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 18 added: 0.774
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 19 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 20 added: 0.765
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 22 added: 0.772
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 24 added: 0.766
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 25 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 26 added: 0.772
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 27 added: 0.755
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 28 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 30 added: 0.739
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 31 added: 0.78
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 32 added: 0.762
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 33 added: 0.77
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 34 added: 0.777
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 36 added: 0.76
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 38 added: 0.762
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 39 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29] with 40 added: 0.787
+Added feature 40 to set, giving us an accuracy of 0.787 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40]
+At level 11 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 1 added: 0.746
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 2 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 3 added: 0.753
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 4 added: 0.759
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 5 added: 0.769
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 9 added: 0.758
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 10 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 11 added: 0.768
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 12 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 13 added: 0.76
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 14 added: 0.765
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 16 added: 0.769
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 17 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 18 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 19 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 20 added: 0.75
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 22 added: 0.762
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 24 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 25 added: 0.782
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 26 added: 0.759
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 27 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 28 added: 0.765
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 30 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 31 added: 0.779
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 32 added: 0.767
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 33 added: 0.771
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 34 added: 0.753
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 36 added: 0.759
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 38 added: 0.764
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40] with 39 added: 0.756
+Added feature 25 to set, giving us an accuracy of 0.782 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25]
+At level 12 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 1 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 2 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 3 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 4 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 5 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 9 added: 0.745
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 10 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 11 added: 0.782
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 12 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 13 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 14 added: 0.748
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 16 added: 0.745
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 17 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 18 added: 0.738
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 19 added: 0.742
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 20 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 22 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 24 added: 0.753
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 26 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 27 added: 0.752
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 28 added: 0.753
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 30 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 31 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 32 added: 0.748
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 33 added: 0.764
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 34 added: 0.738
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 36 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 38 added: 0.774
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25] with 39 added: 0.747
+Added feature 11 to set, giving us an accuracy of 0.782 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11]
+At level 13 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 1 added: 0.752
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 2 added: 0.745
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 3 added: 0.751
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 4 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 5 added: 0.755
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 9 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 10 added: 0.766
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 12 added: 0.77
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 13 added: 0.768
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 14 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 16 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 17 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 18 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 19 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 20 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 22 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 24 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 26 added: 0.755
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 27 added: 0.748
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 28 added: 0.754
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 30 added: 0.769
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 31 added: 0.771
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 32 added: 0.759
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 33 added: 0.762
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 34 added: 0.756
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 36 added: 0.767
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 38 added: 0.764
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11] with 39 added: 0.755
+Added feature 31 to set, giving us an accuracy of 0.771 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31]
+At level 14 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 1 added: 0.746
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 2 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 3 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 4 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 5 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 9 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 10 added: 0.755
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 12 added: 0.752
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 13 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 14 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 16 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 17 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 18 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 19 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 20 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 22 added: 0.746
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 24 added: 0.737
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 26 added: 0.739
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 27 added: 0.756
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 28 added: 0.749
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 30 added: 0.757
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 32 added: 0.737
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 33 added: 0.759
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 34 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 36 added: 0.747
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 38 added: 0.761
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31] with 39 added: 0.74
+Added feature 38 to set, giving us an accuracy of 0.761 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38]
+At level 15 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 1 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 2 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 3 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 4 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 5 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 9 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 10 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 12 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 13 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 14 added: 0.738
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 16 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 17 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 18 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 19 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 20 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 22 added: 0.732
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 24 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 26 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 27 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 28 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 30 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 32 added: 0.738
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 33 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 34 added: 0.737
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 36 added: 0.738
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38] with 39 added: 0.73
+Added feature 28 to set, giving us an accuracy of 0.744 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28]
+At level 16 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 1 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 2 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 3 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 4 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 5 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 9 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 10 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 12 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 13 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 14 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 16 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 17 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 18 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 19 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 20 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 22 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 24 added: 0.72
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 26 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 27 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 30 added: 0.732
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 32 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 33 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 34 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 36 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28] with 39 added: 0.725
+Added feature 33 to set, giving us an accuracy of 0.743 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33]
+At level 17 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 1 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 2 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 3 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 4 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 5 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 9 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 10 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 12 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 13 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 14 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 16 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 17 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 18 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 19 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 20 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 22 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 24 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 26 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 27 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 30 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 32 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 34 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 36 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33] with 39 added: 0.721
+Added feature 1 to set, giving us an accuracy of 0.741 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1]
+At level 18 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 2 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 3 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 4 added: 0.739
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 5 added: 0.695
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 9 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 10 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 12 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 13 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 14 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 16 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 17 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 18 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 19 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 20 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 22 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 24 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 26 added: 0.731
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 27 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 30 added: 0.74
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 32 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 34 added: 0.731
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 36 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1] with 39 added: 0.734
+Added feature 27 to set, giving us an accuracy of 0.743 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27]
+At level 19 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 2 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 3 added: 0.744
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 4 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 5 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 9 added: 0.72
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 10 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 12 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 13 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 14 added: 0.732
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 16 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 17 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 18 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 19 added: 0.736
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 20 added: 0.72
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 22 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 24 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 26 added: 0.737
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 30 added: 0.741
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 32 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 34 added: 0.731
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 36 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27] with 39 added: 0.743
+Added feature 3 to set, giving us an accuracy of 0.744 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3]
+At level 20 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 2 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 4 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 5 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 9 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 10 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 12 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 13 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 14 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 16 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 17 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 18 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 19 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 20 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 22 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 24 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 26 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 30 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 32 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 34 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 36 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3] with 39 added: 0.72
+Added feature 13 to set, giving us an accuracy of 0.73 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13]
+At level 21 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 2 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 4 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 5 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 9 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 10 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 12 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 14 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 16 added: 0.701
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 17 added: 0.7
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 18 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 19 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 20 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 22 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 24 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 26 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 30 added: 0.701
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 32 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 34 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 36 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13] with 39 added: 0.719
+Added feature 9 to set, giving us an accuracy of 0.722 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9]
+At level 22 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 2 added: 0.703
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 4 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 5 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 10 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 12 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 14 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 16 added: 0.688
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 17 added: 0.69
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 18 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 19 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 20 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 22 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 24 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 26 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 30 added: 0.692
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 32 added: 0.701
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 34 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 36 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9] with 39 added: 0.713
+Added feature 12 to set, giving us an accuracy of 0.73 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12]
+At level 23 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 2 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 4 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 5 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 10 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 14 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 16 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 17 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 18 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 19 added: 0.743
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 20 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 22 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 24 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 26 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 30 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 32 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 34 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 36 added: 0.732
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12] with 39 added: 0.707
+Added feature 19 to set, giving us an accuracy of 0.743 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19]
+At level 24 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 2 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 4 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 5 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 10 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 14 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 16 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 17 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 18 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 20 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 22 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 24 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 26 added: 0.731
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 30 added: 0.734
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 32 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 34 added: 0.703
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 36 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19] with 39 added: 0.721
+Added feature 4 to set, giving us an accuracy of 0.734 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4]
+At level 25 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 2 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 5 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 10 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 14 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 16 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 17 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 18 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 20 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 22 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 24 added: 0.731
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 26 added: 0.717
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 30 added: 0.732
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 32 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 34 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 36 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4] with 39 added: 0.723
+Added feature 30 to set, giving us an accuracy of 0.732 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30]
+At level 26 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 2 added: 0.725
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 5 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 10 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 14 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 16 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 17 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 18 added: 0.733
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 20 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 22 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 24 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 26 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 32 added: 0.73
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 34 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 36 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30] with 39 added: 0.719
+Added feature 24 to set, giving us an accuracy of 0.735 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24]
+At level 27 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 2 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 5 added: 0.735
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 10 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 14 added: 0.728
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 16 added: 0.722
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 17 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 18 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 20 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 22 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 26 added: 0.729
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 32 added: 0.723
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 34 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 36 added: 0.726
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24] with 39 added: 0.731
+Added feature 5 to set, giving us an accuracy of 0.735 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5]
+At level 28 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 2 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 10 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 14 added: 0.719
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 16 added: 0.704
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 17 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 18 added: 0.721
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 20 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 22 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 26 added: 0.718
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 32 added: 0.716
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 34 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 36 added: 0.727
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5] with 39 added: 0.715
+Added feature 36 to set, giving us an accuracy of 0.727 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36]
+At level 29 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 2 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 10 added: 0.701
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 14 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 16 added: 0.698
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 17 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 18 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 20 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 22 added: 0.701
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 26 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 32 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 34 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36] with 39 added: 0.722
+Added feature 18 to set, giving us an accuracy of 0.724 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18]
+At level 30 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 2 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 10 added: 0.695
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 14 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 16 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 17 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 20 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 22 added: 0.71
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 26 added: 0.72
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 32 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 34 added: 0.697
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18] with 39 added: 0.725
+Added feature 39 to set, giving us an accuracy of 0.725 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39]
+At level 31 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 2 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 10 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 14 added: 0.724
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 16 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 17 added: 0.703
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 20 added: 0.713
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 22 added: 0.704
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 26 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 32 added: 0.712
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39] with 34 added: 0.696
+Added feature 14 to set, giving us an accuracy of 0.724 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14]
+At level 32 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 2 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 10 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 16 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 17 added: 0.714
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 20 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 22 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 26 added: 0.72
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 32 added: 0.715
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14] with 34 added: 0.701
+Added feature 26 to set, giving us an accuracy of 0.72 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26]
+At level 33 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 2 added: 0.709
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 10 added: 0.692
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 16 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 17 added: 0.699
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 20 added: 0.703
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 22 added: 0.696
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 32 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26] with 34 added: 0.686
+Added feature 2 to set, giving us an accuracy of 0.709 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2]
+At level 34 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 10 added: 0.693
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 16 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 17 added: 0.711
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 20 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 22 added: 0.689
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 32 added: 0.705
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2] with 34 added: 0.688
+Added feature 17 to set, giving us an accuracy of 0.711 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17]
+At level 35 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 10 added: 0.692
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 16 added: 0.702
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 20 added: 0.706
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 22 added: 0.692
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 32 added: 0.708
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17] with 34 added: 0.691
+Added feature 32 to set, giving us an accuracy of 0.708 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32]
+At level 36 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32] with 10 added: 0.694
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32] with 16 added: 0.696
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32] with 20 added: 0.707
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32] with 22 added: 0.7
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32] with 34 added: 0.691
+Added feature 20 to set, giving us an accuracy of 0.707 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20]
+At level 37 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20] with 10 added: 0.698
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20] with 16 added: 0.699
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20] with 22 added: 0.694
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20] with 34 added: 0.698
+Added feature 16 to set, giving us an accuracy of 0.699 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16]
+At level 38 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16] with 10 added: 0.697
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16] with 22 added: 0.688
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16] with 34 added: 0.707
+Added feature 34 to set, giving us an accuracy of 0.707 
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16, 34]
+At level 39 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16, 34] with 10 added: 0.699
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16, 34] with 22 added: 0.698
+Added feature 10 to set, giving us an accuracy of 0.699 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+CURRENT SET OF FEATURES: [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16, 34, 10]
+At level 40 of the search tree.
+ACCURACY OF FEATURES [37, 15, 23, 6, 35, 21, 7, 8, 29, 40, 25, 11, 31, 38, 28, 33, 1, 27, 3, 13, 9, 12, 19, 4, 30, 24, 5, 36, 18, 39, 14, 26, 2, 17, 32, 20, 16, 34, 10] with 22 added: 0.693
+Added feature 22 to set, giving us an accuracy of 0.693 
+
+WARNING: Accuracy has decreased, but the search will continue!
+
+FINISH: Optimal set of features is [37, 15] , with an accuracy of  0.951
+Time to compute: 3996.0 seconds.
