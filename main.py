@@ -62,6 +62,7 @@ def featureSearch(data, algorithm):
         # The feature whose addition results in the highest accuracy will be added to the current set of features (greedy selection).
         # We return the set of features who had the highest accuracy.
     if algorithm == 1:
+        print("INITIAL ACCURACY CHECK:", setOfFeatures, "has accuracy", kFoldCrossValidation(data, setOfFeatures, 0), '\n')
         for i in range(1, len(data[0])):
             print("CURRENT SET OF FEATURES:", setOfFeatures)
             print("At level", i, "of the search tree.")
@@ -94,6 +95,7 @@ def featureSearch(data, algorithm):
     if algorithm == 2:
         for i in range(1, len(data[0])): # Add every feature to the setOfFeatures, since backward elimination starts with a complete set of features.
             setOfFeatures.append(i)
+        print("INITIAL ACCURACY CHECK:", setOfFeatures, "has accuracy", kFoldCrossValidation(data, setOfFeatures, 0), '\n')
         for i in range(1, len(data[0])):
             print("CURRENT SET OF FEATURES:", setOfFeatures)
             print("At level", i, "of the search tree.")
